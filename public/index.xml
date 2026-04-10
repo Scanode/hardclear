@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hardclear</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on hardclear</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Once upon a time I ran a WordPress blog called BitBouquet. With the changing pace of my life, I made the decision to switch to a simple static site for my content.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;http://localhost:1313/img/scan.png&#34;  alt=&#34;Scan&#34;   style=&#34;border-radius: 8px;&#34;  /&gt;
+    
+      &lt;figcaption class=&#34;center&#34;  style=&#34;color: black;&#34; &gt;Hello, I&#39;m Hazel. Nice to meet you!&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;I love IT infrastructure! I believe that grasping the underlying technologies and systems that move peoples lives and businesses is an incredibly important asset in our modern age,
+and this blog serves as a testament to that mentality. I strongly believe in the power of FOSS, and the importance of self-hosting in this cloud-ridden, engagement obsessed,
+LLM-ified internet we all participate in.&lt;/p&gt;</description>
+      <content>&lt;p&gt;Once upon a time I ran a WordPress blog called BitBouquet. With the changing pace of my life, I made the decision to switch to a simple static site for my content.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;http://localhost:1313/img/scan.png&#34;  alt=&#34;Scan&#34;   style=&#34;border-radius: 8px;&#34;  /&gt;
+    
+      &lt;figcaption class=&#34;center&#34;  style=&#34;color: black;&#34; &gt;Hello, I&#39;m Hazel. Nice to meet you!&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;I love IT infrastructure! I believe that grasping the underlying technologies and systems that move peoples lives and businesses is an incredibly important asset in our modern age,
+and this blog serves as a testament to that mentality. I strongly believe in the power of FOSS, and the importance of self-hosting in this cloud-ridden, engagement obsessed,
+LLM-ified internet we all participate in.&lt;/p&gt;
+&lt;h4 id=&#34;a-brief-history&#34;&gt;A brief history&lt;/h4&gt;
+&lt;p&gt;My journey with technology started after I graduated university with a bachelors degree in commerce, and a minor in economics.
+Despite that, I somehow ended up working as a supervisor at a certain canadian computer store.&lt;/p&gt;
+&lt;p&gt;Through that job I re-discovered my love for computers and became interested in the deeper side of repair, and server technology. I started self-hosting a NAS,
+and got involved in various online communities which helped expand that curiosity into a real job.&lt;/p&gt;
+&lt;p&gt;In 2023, I got a job with an MSP as tech, and eventually moved into an escalations role. It was an amazingly stressful job, with so many opportunities to learn.
+When people joke that MSPs are like an IT bootcamp, they&amp;rsquo;re not lying!&lt;/p&gt;
+&lt;p&gt;Fast forward to 2025, and I started an independant Japanese import arcade with my friends in Toronto. The business has grown to a point where I was able to quit my IT gig. We do contracts all around
+Canada for various gaming and anime conventions, all while running a downtown storefront.&lt;/p&gt;
+&lt;h4 id=&#34;projects&#34;&gt;Projects&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;sweetgum: A stripped down v83 MapleStory server with a single map structure, designed explicitly to be a chatroom with a dress-up element.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;bm2dnix: Continuation of the nixac project, a combination of utilities and scripts to aid in the process of running Beatmania IIDX on linux systems. (deprecated)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;lycoris: A fully automated &amp;amp; containerized self-managed media library hosted through Plex/Jellyfin.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;bitbouquet: Former personal blog that housed all my tech ramblings and personal stories about identity and transition.
+It used to run a public AI upscaler (waifu2x) that utilized a fancy CUDA container.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;blossomworks: My multi-site, fully managed network stack. It hosts this website!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Identity through branding - my personal logos, banners, and designs from 2016 to 2023</title>
+      <link>http://localhost:1313/posts/identity/</link>
+      <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/identity/</guid>
+      <description>&lt;p&gt;
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;http://localhost:1313/img/cathode.png&#34;  alt=&#34;Cathode by Combo&#34;   style=&#34;border-radius: 8px;&#34;  /&gt;
+    
+      &lt;figcaption class=&#34;center&#34;  style=&#34;color: black;&#34; &gt;Cathode (2020) by Combo&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+For as long as I can remember, I’ve always enjoyed playing with photo editing software. Where most of my hobbies come and go, making silly little things for myself in photoshop has been a semi-regular activity on the computer since I’ve had my YouTube channel.&lt;/p&gt;
+&lt;p&gt;It’s always felt like sketching to me in the same way that people will doodle on their notebooks or play with coloring books to let their mind run. Most of my designs end up being sketches and only that. I was bored on the computer and had nothing better to do.&lt;/p&gt;</description>
+      <content>&lt;p&gt;
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;http://localhost:1313/img/cathode.png&#34;  alt=&#34;Cathode by Combo&#34;   style=&#34;border-radius: 8px;&#34;  /&gt;
+    
+      &lt;figcaption class=&#34;center&#34;  style=&#34;color: black;&#34; &gt;Cathode (2020) by Combo&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+For as long as I can remember, I’ve always enjoyed playing with photo editing software. Where most of my hobbies come and go, making silly little things for myself in photoshop has been a semi-regular activity on the computer since I’ve had my YouTube channel.&lt;/p&gt;
+&lt;p&gt;It’s always felt like sketching to me in the same way that people will doodle on their notebooks or play with coloring books to let their mind run. Most of my designs end up being sketches and only that. I was bored on the computer and had nothing better to do.&lt;/p&gt;
+&lt;p&gt;I’ve been uploading/streaming to YouTube and Twitch for 10+ years at this point and I treat it like a venue to express my identity rather than a platform to gain a following on.&lt;/p&gt;
+&lt;h1 id=&#34;youtubetwitch-2016--2017&#34;&gt;YouTube/Twitch: 2016 ~ 2017&lt;/h1&gt;
+
+&lt;img src=&#34;http://localhost:1313/img/haru-2016.jpg&#34;  alt=&#34;Haru 2016 Stream Layout&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+&lt;p&gt;These are the earliest stream layouts that I still have archived. There was definitely some previous stuff I’d made for myself at that point, but it’s all been lost to time. It’s mostly crude, unhinged usage of Gimp and poorly put together Maplestory and MLP edits. They were pretty bad, embarassing even, but I definitely thought they were super cool back then and that’s all that matters.&lt;/p&gt;
+&lt;p&gt;There’s only one remaining video from that era and it’s a Maplestory tutorial for Windows 7. I keep it up because I think it’s really cute, and it’s shows how interested I was in teaching people about software. Now I maintain servers and teach businesses how to use software professionally!&lt;/p&gt;
+&lt;h1 id=&#34;youtubetwitch-2018&#34;&gt;YouTube/Twitch: 2018&lt;/h1&gt;
+
+&lt;img src=&#34;http://localhost:1313/img/haru-2018.jpg&#34;  alt=&#34;Haru 2018 Stream Layout&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+&lt;p&gt;Idols! Idols! Idols! This was around the time when I fell in love with the 2D idol game franchise THE iDOLM@STER. This one was kind of an improvement? I started learning how to use opacity more effectively.
+This one definitely had a little more life. The now playing broke ALL THE TIME because rhythm games all had different ways of doing it, big pain in the butt. There was a Kancolle version of this layout that I also had used for some time,
+which is where the texture for the name portion of the design came from!&lt;/p&gt;
+
+&lt;img src=&#34;http://localhost:1313/img/haru-logo-2018.png&#34;  alt=&#34;Haru 2018 Logo&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+&lt;p&gt;I think this was the first time I achieved an “effect,” and I was pretty hooked. I really started to enjoy putting things together. Playing with fonts, icons, colours, and filters started to become a semi-regular activity.&lt;/p&gt;
+&lt;h1 id=&#34;business-cards-2018&#34;&gt;Business Cards: 2018&lt;/h1&gt;
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;http://localhost:1313/img/haru-pcard.png&#34;  alt=&#34;Haru P-Card&#34;   style=&#34;border-radius: 8px;&#34;  /&gt;
+    
+      &lt;figcaption class=&#34;center&#34;  style=&#34;color: black;&#34; &gt;These were one of the coolest forms of self-expresison I&#39;ve ever seen in a community.&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;I had this phase where I was making business cards for people, thanks iM@S community. I still have the one on the right buried in a pile of other producer cards. Not much to say about this one. It’s a little boring, and is pretty cookie cutter in terms of pcards. But I put a fair amount of effort into it,
+and seeing it come to life once I got them printed to hand out to other producers was really awesome.&lt;/p&gt;
+&lt;h1 id=&#34;youtubetwitch-2019&#34;&gt;YouTube/Twitch: 2019&lt;/h1&gt;
+
+&lt;img src=&#34;http://localhost:1313/img/harus-room-2019.jpg&#34;  alt=&#34;Haru 2018 Stream Layout&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+&lt;p&gt;This was the point at which I had started using the name “Haru’s Room.” It was meant to be a way to make the stream feel more close to the viewers/friends/family watching at home. I wanted to make it feel like you were hanging out in my room, I would rotate the stream around my desk, Beatmania IIDX, and retro console setups. It ended up being poorly executed, but it was definitely a fun idea and I ended up rolling with it for close to a year.&lt;/p&gt;
+&lt;p&gt;As for the design itself, it looked great but it was barely my own work. The background is a ripped scan from a Kors K album (its one of the xenna albums i cant remember the name), and our familiar friend Bebas Neue has made a return once again.&lt;/p&gt;
+&lt;h1 id=&#34;youtubetwitch-2020&#34;&gt;YouTube/Twitch: 2020&lt;/h1&gt;
+&lt;p&gt;Being a white person with a Japanese name online started to feel pretty embarrassing, so 2020 marked the birth of Scanline and it’s variations. It was far more representative of who I was as it’s a direct reference to the scanlines generated by retro TVs.&lt;/p&gt;
+
+&lt;img src=&#34;http://localhost:1313/img/scanline-2020.png&#34;  alt=&#34;Scanline 2020 Stream Layout&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+&lt;p&gt;I really don’t want to talk about this one but for the sake of the timeline I’ll include it. This was honestly kinda lazy and I remember thinking it looked sick, probably because of the scanline effect on my name. Probably could’ve got way more imaginative with the layout but I was too focused on grinding stamina ITG. White backgrounds for streams make them unwatchable at night, something I clearly didnt take into consideration LMAO&lt;/p&gt;
+&lt;h1 id=&#34;youtubetwitch-2021&#34;&gt;YouTube/Twitch: 2021&lt;/h1&gt;
+
+&lt;img src=&#34;http://localhost:1313/img/scanline-2021.gif&#34;  alt=&#34;Scanline 2021 Stream Layout&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+&lt;p&gt;Something about this felt like a step up. I started focusing more on cohesive designs that made use of a proper color palette. This was also my first time ever playing with After Effects, it didn’t really end up being for me as I’m not a huge video fx person but I ended up getting a pretty cool looping background! Respect to the people who use that software, I’m a little too dumb for it :’)&lt;/p&gt;
+&lt;p&gt;I didn’t get to make use of this layout for too long, and that was kind of unfortunate because it was really cute! The colour palette felt super warm and inviting, and it felt like the first time I used monochrome colors effectively.  The soft, almost pink reds went incredibly well with Mershark’s drawing of my MapleLegends character Anode. I still use her quite a bit in my own branding,
+she’s become a representation of myself instead of an MMO character at this point.&lt;/p&gt;
+
+&lt;img src=&#34;http://localhost:1313/img/scanline-2021-layout.png&#34;  alt=&#34;Scanline 2021 Stream Layout&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+&lt;p&gt;I apologize for the sudden shift, but this was a pretty turbulent time in my life. I think it was a tough time for everybody, but covid became a really easy way for me to bury the gender dysphoria and coast along without any critical thought towards my future. I regret not coming out in 2019, but I got pretty consumed by playing MapleLegends day in and day out, and my characters filled a void that I was quite aware of, but I kind of just let it happen.&lt;/p&gt;
+&lt;h1 id=&#34;maplelegends--finding-myself&#34;&gt;MapleLegends &amp;amp; finding myself&lt;/h1&gt;
+&lt;p&gt;Let’s take a moment to talk about this silly little private Maplestory server, because it played a pretty instrumental role in my life, for better or for worse. Bittersweet is probably the best way to describe it.&lt;/p&gt;
+&lt;p&gt;There is a bit of a subculture within the Maplestory community of having a more distinct look through the use of paid cosmetics. In the private server scene it was even more heightened, since nx was free and the low population of players made it so everyone’s characters were distinguishable if you spent enough time hanging out in the market.&lt;/p&gt;
+
+&lt;img src=&#34;http://localhost:1313/img/cathode_anode_stand.png&#34;  alt=&#34;Cathode &amp; Anode&#34;  class=&#34;right&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+&lt;p&gt;I had a bit of a reputation for cute characters and I ended up being in charge of new cosmetics for 2 (maybe 3?) seasonal events when I served as staff. I also maintained a lot of the beauty parlor guides. I guess it was pretty eggy behaviour, now that I look back on it.&lt;/p&gt;
+&lt;p&gt;To clarify, not every person using an OC that’s not their gender should treat it as a sign that they’re trans, plenty of people do that and are very comfortable with who they are. With that being said, don’t hesitate to question it! Maybe it’s not as deep for you, and you like your OC simply for the sake of liking them. In my case Anode was a bit of a projection, but I was a little too lost at the time to come to terms with that.&lt;/p&gt;
+&lt;p&gt;
+&lt;img src=&#34;http://localhost:1313/img/anode_dany.jpg&#34;  alt=&#34;Scanline 2021 Stream Layout&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;http://localhost:1313/img/blank.png&#34;  alt=&#34;Anode (2021) by Dany&#34;   style=&#34;border-radius: 8px;&#34;  /&gt;
+    
+      &lt;figcaption class=&#34;center&#34;  style=&#34;color: black;&#34; &gt;Thank you Dany, I wish I could tell you how much this drawing meant to me in the right context.&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;p&gt;That aforementioned regret still exists, but I don’t feel as bitter about it anymore. I’m here now, and that’s all that matters.&lt;/p&gt;
+&lt;h1 id=&#34;more-designs-2021&#34;&gt;More designs: 2021&lt;/h1&gt;
+
+&lt;img src=&#34;http://localhost:1313/img/scanline-ytbanner-2021.png&#34;  alt=&#34;Scanline YouTube Banner 2021&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+&lt;p&gt;The adorable drawing above was done by Haiirojob (灰色), but I never got to utilize it to the same extent as mersharks drawing. Haiirojob’s artwork was beautiful on its own but a little too busy to reliably use with branding. Super cute as a profile picture or wallpaper though!&lt;/p&gt;
+&lt;p&gt;Also lets talk about that logo… this was my first and only attempt at working with Japanese kawaii pop fonts. I’ve tried my hand, and I just don’t think I’m very good at it. I think to get impactful “kawaii” branding that doesn’t look super cheap, you have to break out the sketchbook and pen tool. Hiiragi Ryo is a great example of this, and continues to be an inspiration for me.&lt;/p&gt;
+
+&lt;img src=&#34;http://localhost:1313/img/scan-logo-2021.png&#34;  alt=&#34;Scanline Bow Logo&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+&lt;p&gt;I ended up doing some similar looking stuff, including an unfinished logo I was trying to make for a vtuber friend.&lt;/p&gt;
+
+&lt;img src=&#34;http://localhost:1313/img/murasaki-logo.png&#34;  alt=&#34;Murasaki Ch. Logo&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+&lt;p&gt;I don’t think she would’ve liked it, this wasn’t really her aesthetic. I guess it was an alright attempt? Don’t know what I was thinking when I made that tail stroke LOL, didn’t look anything like the typeface I was working with.&lt;/p&gt;
+&lt;h1 id=&#34;youtubetwitch-late-2021--2023&#34;&gt;Youtube/Twitch: Late 2021 ~ 2023&lt;/h1&gt;
+&lt;p&gt;I really liked the hearts design at the time, but I remembered seeing the font I had used for the name, thinking I could do so much more with it.&lt;/p&gt;
+
+&lt;img src=&#34;http://localhost:1313/img/scanline-2022.png&#34;  alt=&#34;Scanline 2022 Logo&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+&lt;p&gt;The end result ended up being this. This was and arguably still is my best personal logo, and I think it ended up being really difficult to top because I rocked it pretty much all through the COVID lockdown.&lt;/p&gt;
+&lt;p&gt;The choice of pastel pink and blue made a return which is nice, and so did the bunny TV icons. I remember really focusing on symmetry, and the way the font made it really easy to connect strokes around, and imitate them with a basic brush tool. Also the only time I’ve gone to consult a colleague familiar with design on something I’ve made, because I must’ve felt that I had something a little more than a goofy logo with this one.&lt;/p&gt;
+
+&lt;img src=&#34;http://localhost:1313/img/scan-heart-2022.jpg&#34;  alt=&#34;Scanline 2022 Heart Logo&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+&lt;p&gt;This one made it into the mix at some point too. It has a fairly edgy “midnight hotline” vibe to it thanks to the tight RGB shift. Making this definitely got me interested in modernized y2k stuff, and it has since become my primary style (original, I know). The line slice was a really fun way to play with the name again.&lt;/p&gt;
+&lt;h1 id=&#34;systems-lab-2022--present&#34;&gt;Systems Lab: 2022 ~ Present&lt;/h1&gt;
+
+&lt;img src=&#34;http://localhost:1313/img/blossomnetwork.png&#34;  alt=&#34;Blossomnetwork Captive Portal&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+&lt;p&gt;The Blossom Network came about after I was looking for a fun hostname structure for virtual machines, servers, and other network devices, as my stack continued to grow.&lt;/p&gt;
+&lt;p&gt;The servers in the “blossom network” are all named after flowers or plants. The network lets them blossom, you get it. It’s corny as fuck, but it’s been a cute way to give my logs and real time monitoring a little bit more life instead of “oh, there’s host-01 and VM690.”&lt;/p&gt;
+&lt;p&gt;Mostly made out of public domain assets. It’s cute, I don’t mind it, and it only tends to get used internally.&lt;/p&gt;
+&lt;h1 id=&#34;personal-blogweb-services-2023--2025&#34;&gt;Personal Blog/Web Services: 2023 ~ 2025&lt;/h1&gt;
+
+&lt;img src=&#34;http://localhost:1313/img/bitbouquet.png&#34;  alt=&#34;BitBouquet Homepage&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+&lt;p&gt;BitBouquet became a thing because I was teaching myself how to secure public, self-hosted webservers. Using a CMS like WordPress ended up being a really solid idea since I’m not a developer, and it gave me the level of customization I wanted. I ended up really enjoying playing with the website once I learned how to securely host it, so I kept it up for quite some time, only having moved on from it in place of hardclear. (the site youre on!)&lt;/p&gt;
+&lt;p&gt;It’s really simple, but this is definitely one of my favourites. I may be biased to it because it was my first website, but the font choice for a name with the word “bit” was perfect due to its blocky look. It feels a little empty and is very hard to fit uniformly in branding because its super unbalanced.&lt;/p&gt;
+&lt;h1 id=&#34;maplestory-server-2023--2025&#34;&gt;MapleStory Server: 2023 ~ 2025&lt;/h1&gt;
+
+&lt;img src=&#34;http://localhost:1313/img/sweetgum-registration.png&#34;  alt=&#34;Sweetgum Registration Page&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+&lt;p&gt;Sweetgum is the successor to my previous v83 private server project, Poinsettia. It’s still unfinished, and will be for a good while.  It was going to be the eventual public release of the work that was done on Poinsettia but the colleagues I was working on this with are both busy with life, and I kind of am too.&lt;/p&gt;
+&lt;p&gt;This login &amp;amp; registration page looks pretty nice though, ngl. I think I nailed the forest fairy vibe I was trying to go for, and being able to play around with Maplestory map artwork was a lot of fun. This one had a lot more planning behind it and wasn’t as sporadic as the others because I was working with others, and I think it shows??&lt;/p&gt;
+
+&lt;img src=&#34;http://localhost:1313/img/sweetgum-leaf.jpg&#34;  alt=&#34;Sweetgum Leaf&#34;  class=&#34;right&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+&lt;p&gt;The inspiration for the name “sweetgum,” and the forest-y green color scheme comes from the sweetgum leaf, which is considered to be the closest lookalike to a maple leaf in shape. They’re often confused for silver maple leaves, so I thought it was a funny nod to the fact that its a private server without having the use the words “Maple,” “Story,” or “MS.”&lt;/p&gt;
+&lt;h1 id=&#34;youtube-2023--present&#34;&gt;Youtube: 2023 ~ Present&lt;/h1&gt;
+
+&lt;img src=&#34;http://localhost:1313/img/scan-youtube-2023.png&#34;  alt=&#34;Scan Youtube Banner 2023&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;
+
+
+&lt;p&gt;This is my most recent work. I don’t know why I really went down this direction, I’ve been obsessed with a house/trap/bass artist named Knock2, and I think his own logos and especially the logos of his label Night Mode gave me the itch to make something new.&lt;/p&gt;
+&lt;p&gt;Using Solange felt incredibly daunting at first, but when I saw just how sick the lower case “S” instead of the uppercase one, I knew it was meant to be. Added some 3d transforming, waves, text paths, noise, y2k iconography and I was set. Kind of a banger??&lt;/p&gt;
+&lt;h1 id=&#34;conclusion---most-of-it-sucks-and-thats-okay&#34;&gt;Conclusion - Most of it sucks, and that&amp;rsquo;s okay&lt;/h1&gt;
+&lt;p&gt;I’m an amateur, and I always will be. I don’t plan on having that change, and I’m quite happy with that. This was not meant to be a showcase of my technical skill, because I don’t really know what it takes to have technical proficiency in design. Rather it’s been an exploration of things that I thought looked cool, and how I’ve represented my identity online. Something as stupid as a little twitch layout, or a banner has the ability to capture so much of who you were at the time.&lt;/p&gt;
+&lt;p&gt;At the very least, I can confidently say that there was an improvement and that’s pretty cool! Looking back, there were some preferences I seemed to pick up very early. I really liked pinks, purples, and blues, and I had an obsession with drop shadows back then because they’re a cheap way to make anything look “decent.”&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
