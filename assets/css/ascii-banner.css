@@ -1,0 +1,44 @@
+/* Static ASCII art banner for re-terminal.
+   Characters scale so the full width of the art fits the page column.
+   Per-banner size and colours are in css/ascii-banners/NAME.css (generated);
+   the JS refines the size to the exact pixel. */
+
+.ascii-banner {
+  --ab-lh: 1.2;
+  --ab-hi: var(--accent, #ff6266);
+
+  container-type: inline-size;
+  width: 100%;
+  margin: 0 0 20px;
+  overflow: hidden;
+}
+
+/* the theme styles <pre> as a code block; undo all of that here */
+.ascii-banner pre.ascii-banner__art {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  box-shadow: none;
+  overflow: visible;
+  white-space: pre;
+  font-family: "Fira Code", "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+  font-variant-ligatures: none;   /* Fira Code would otherwise join some letter pairs */
+  font-feature-settings: "liga" 0, "calt" 0;
+  /* font-size comes from css/ascii-banners/NAME.css (generated) */
+  line-height: 1.2 !important;
+  letter-spacing: 0;
+  color: color-mix(in srgb, var(--ab-hi) 70%, transparent); /* only used if the generated colours are missing */
+  cursor: crosshair;
+  user-select: text;
+}
+
+.ascii-banner pre.ascii-banner__art::selection,
+.ascii-banner pre.ascii-banner__art *::selection {
+  background: var(--ab-hi);
+  color: var(--background, #1d1e28);
+}
+
+@media print {
+  .ascii-banner { display: none; }
+}

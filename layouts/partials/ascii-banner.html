@@ -1,0 +1,87 @@
+{{- /*
+  Static ASCII art banner for re-terminal, picked at random from a set. Put it above the header.
+
+  Each banner is three generated files (see tools/build-banner.py):
+    assets/ascii/banners/NAME.txt
+    layouts/partials/ascii-banners/NAME.html   coloured spans, so no JS is needed for colour
+    assets/css/ascii-banners/NAME.css          its "image" and "red" palettes
+
+  The first banner is rendered normally and the rest go into <template>s. A tiny inline
+  script swaps in a random one before the page paints. Without JS you always see the first.
+
+  Config (hugo.toml). Hugo lowercases param keys, so they are read lowercase here:
+
+    [params.asciiBanner]
+      enable   = true
+      palette  = "image"   # "image" = colours picked from the reference, "red" = theme accent
+      banners  = []        # optional: names to use, in order (first = no-JS default). Empty = all.
+      rotate   = true      # false = always show the first banner
+      maxfont  = 16        # px cap on character size on wide screens
+      onlyhome = false
+      label    = "hardclear ascii art"
+*/ -}}
+{{- $p := site.Params.asciibanner -}}
+{{- if and $p $p.enable (or (not $p.onlyhome) .IsHome) -}}
+  {{- $names := slice -}}
+  {{- with $p.banners -}}
+    {{- $names = . -}}
+  {{- else -}}
+    {{- range sort (resources.Match "ascii/banners/*.txt") "Name" -}}
+      {{- $names = $names | append (path.BaseName .Name) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $rotate := true -}}{{- if isset $p "rotate" }}{{ $rotate = $p.rotate }}{{ end -}}
+  {{- if not $rotate }}{{ $names = first 1 $names }}{{ end -}}
+
+  {{- if $names -}}
+    {{- $css := slice (resources.Get "css/ascii-banner.css") -}}
+    {{- range $names }}{{ with resources.Get (printf "css/ascii-banners/%s.css" .) }}{{ $css = $css | append . }}{{ end }}{{ end -}}
+    {{- $css = $css | resources.Concat "css/ascii-banner.bundle.css" | fingerprint -}}
+    {{- $js := resources.Get "js/ascii-banner.js" | fingerprint -}}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+<div class="ascii-banner" data-ascii-banner
+     data-palette="{{ $p.palette | default "image" }}"
+     role="img" aria-label="{{ $p.label | default "ASCII art banner" }}"
+     style="--ab-max-fs:{{ $p.maxfont | default 16 }}px">
+    {{- range $i, $name := $names -}}
+      {{- $txt := resources.Get (printf "ascii/banners/%s.txt" $name) -}}
+      {{- if not $txt }}{{ errorf "ascii-banner: assets/ascii/banners/%s.txt not found" $name }}{{ end -}}
+      {{- $cols := 0 -}}
+      {{- range split (strings.TrimRight "\n" (replace $txt.Content "\r" "")) "\n" -}}
+        {{- if gt (strings.RuneCount .) $cols }}{{ $cols = strings.RuneCount . }}{{ end -}}
+      {{- end -}}
+      {{- $pre := printf `<pre class="ascii-banner__art" data-banner="%s" style="--ab-cols:%d" aria-hidden="true">%s</pre>` $name $cols (partial (printf "ascii-banners/%s.html" $name) .) -}}
+      {{- if eq $i 0 }}
+  {{ $pre | safeHTML }}
+      {{- else }}
+  <template data-banner="{{ $name }}">{{ $pre | safeHTML }}</template>
+      {{- end -}}
+    {{- end }}
+</div>
+    {{- if gt (len $names) 1 }}
+<script>
+/* pick a random banner before first paint; avoids repeating the previous one */
+(function (root) {
+  try {
+    var pre = root.querySelector("pre[data-banner]");
+    var names = [pre.getAttribute("data-banner")];
+    root.querySelectorAll("template[data-banner]").forEach(function (t) { names.push(t.getAttribute("data-banner")); });
+    var last = null; try { last = sessionStorage.getItem("ab-last"); } catch (e) {}
+    var pool = names.filter(function (n) { return n !== last; });
+    var pick = pool[Math.floor(Math.random() * pool.length)];
+    try { sessionStorage.setItem("ab-last", pick); } catch (e) {}
+    if (pick !== names[0]) {
+      var tpl = root.querySelector('template[data-banner="' + pick + '"]');
+      var keep = document.createElement("template");   // keep the default for later swaps
+      keep.setAttribute("data-banner", names[0]);
+      pre.replaceWith(tpl.content.cloneNode(true));
+      keep.content.appendChild(pre);
+      root.insertBefore(keep, tpl);
+    }
+  } catch (e) {}
+})(document.currentScript.previousElementSibling);
+</script>
+    {{- end }}
+<script src="{{ $js.RelPermalink }}" defer></script>
+  {{- end -}}
+{{- end -}}

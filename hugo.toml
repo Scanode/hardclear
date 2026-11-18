@@ -119,3 +119,7 @@ pagination.pagerSize = 5
   # replacements = "github.com/mirus-ua/hugo-theme-re-terminal -> themes/re-terminal"
 [[module.imports]]
   #path = 'themes/re-terminal'
+
+[params.asciiBanner]
+  enable  = true
+  palette = "red"   # or "red"
