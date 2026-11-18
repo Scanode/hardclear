@@ -21,7 +21,7 @@ Despite that, I somehow ended up working as a supervisor at a certain canadian c
 Through that job I re-discovered my love for computers and became interested in the deeper side of repair, and server technology. I started self-hosting a NAS, 
 and got involved in various online communities which helped expand that curiosity into a real job. 
 
-In 2023, I got a job with an MSP as tech, and eventually moved into an escalations role. It was an amazingly stressful job, with so many opportunities to learn. 
+In 2022, I got a job with an MSP as tech, and eventually moved into an escalations role. It was an amazingly stressful job, with so many opportunities to learn. 
 When people joke that MSPs are like an IT bootcamp, they're not lying!
 
 Fast forward to 2025, and I started an independant Japanese import arcade with my friends in Toronto. The business has grown to a point where I was able to quit my IT gig. We do contracts all around 
