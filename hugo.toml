@@ -123,3 +123,4 @@ pagination.pagerSize = 5
 [params.asciiBanner]
   enable  = true
   palette = "red"   # or "red"
+  banners = ["hardclear-2"]
